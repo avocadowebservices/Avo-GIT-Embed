@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.2.5] - 2025-05-11
+### Changed
+- Replaced custom Download ZIP button with official shields.io badge
+- Perfect visual alignment with other badges (no CSS styling required)
+
 ## [1.2.4] - 2025-05-11
 ### Fixed
 - Download ZIP badge now perfectly matches shields.io style
@@ -13,7 +18,7 @@
 ## [1.2.2] - 2025-05-11
 ### Fixed
 - Replaced badge table row with inline `<span>` containers for correct layout
-- Placed Download ZIP in same line as other badges
+- Placed Download ZIP in same line as other badges (badge-row)
 
 ## [1.2.1] - 2025-05-11
 ### Changed
