@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.6] - 2025-05-11
+### Added
+- Improved repository embedding performance.
+- Updated styling to match GitHub official styles.
+- Enhanced shortcode flexibility.
+
+### Fixed
+- Minor CSS alignment issues on mobile.
+- Addressed caching issues with embedded repositories.
+
 ## [1.2.5] - 2025-05-11
 ### Changed
 - Replaced custom Download ZIP button with official shields.io badge
