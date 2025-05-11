@@ -1,0 +1,47 @@
+# Changelog
+
+## [1.1.8] - 2025-05-11
+### Fixed
+- Removed excessive spacing below repo title
+- Improved layout around badges and README start
+
+## [1.1.7] - 2025-05-11
+### Added
+- External CSS file for easier styling and theme compatibility
+- `show_release="yes"` attribute to display GitHub latest release info
+
+## [1.1.6] - 2025-05-11
+### Changed
+- Rendered GitHub badges in a single-row table for perfect inline alignment
+
+## [1.1.5] - 2025-05-11
+### Fixed
+- Replaced `<div>` wrappers with `<span>` for badges to prevent vertical stacking
+
+## [1.1.4] - 2025-05-11
+### Changed
+- Experimented with `<div>` badge containers (caused spacing issue later)
+
+## [1.1.3] - 2025-05-11
+### Fixed
+- Attempted badge layout fix with `<div>` wrappers (still caused stacking)
+
+## [1.1.2] - 2025-05-11
+### Fixed
+- Improved badge image layout with CSS to display them inline
+
+## [1.1.1] - 2025-05-11
+### Added
+- Badge rendering using Parsedown to support Markdown shield images
+
+## [1.1.0] - 2025-05-11
+### Added
+- Markdown rendering of README.md using Parsedown
+- CSS layout for repo display
+- GitHub API caching via WordPress transients
+
+## [1.0.0] - 2025-05-10
+### Initial Release
+- Basic shortcode support: `[avogitembed user="..." repo="..."]`
+- Fetch GitHub repo title, description, stars, forks, updated date
+- Fetch and display raw `README.md` from main branch
