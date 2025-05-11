@@ -1,9 +1,38 @@
 # Changelog
 
+## [1.2.4] - 2025-05-11
+### Fixed
+- Download ZIP badge now perfectly matches shields.io style
+- Font, padding, and vertical alignment fully polished
+
+## [1.2.3] - 2025-05-11
+### Changed
+- Styled the Download ZIP badge with GitHub-like appearance
+- Applied dark background and monospace font to resemble shield badges
+
+## [1.2.2] - 2025-05-11
+### Fixed
+- Replaced badge table row with inline `<span>` containers for correct layout
+- Placed Download ZIP in same line as other badges
+
+## [1.2.1] - 2025-05-11
+### Changed
+- Converted the large Download ZIP button into a badge-style element
+- Moved the badge inline next to other repo badges
+
+## [1.2.0] - 2025-05-11
+### Changed
+- Download ZIP button now shown by default (no shortcode needed)
+
+## [1.1.9] - 2025-05-11
+### Added
+- `show_download="yes"` shortcode attribute to enable a Download ZIP button
+- Download links directly to GitHub archive ZIP
+
 ## [1.1.8] - 2025-05-11
 ### Fixed
 - Removed excessive spacing below repo title
-- Improved layout around badges and README start
+- Improved badge layout and spacing
 
 ## [1.1.7] - 2025-05-11
 ### Added
